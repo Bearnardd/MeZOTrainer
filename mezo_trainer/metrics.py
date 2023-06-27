@@ -76,3 +76,4 @@ def f1(pred, gold):
                 recall = 1.0 * num_same / len(ground_truth_tokens)
                 all_f1s.append((2 * precision * recall) / (precision + recall))
         return np.max(all_f1s)
+
